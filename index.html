@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TopOne Trader Login</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212; /* Dark background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-container {
+      background: #1e1e1e;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+      width: 320px;
+      text-align: center;
+    }
+    .logo {
+      margin-bottom: 20px;
+    }
+    .logo img {
+      width: 120px;
+    }
+    h2 {
+      color: white;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #333;
+      background: #2a2a2a;
+      color: white;
+      outline: none;
+      font-size: 14px;
+    }
+    input::placeholder {
+      color: #aaa;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #2ECC71; /* Green button */
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #27ae60;
+    }
+    .forgot {
+      display: block;
+      margin-top: 12px;
+      font-size: 13px;
+      color: #aaa;
+      text-decoration: none;
+    }
+    .forgot:hover {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="logo">
+      <img src="logo.png" alt="TopOne Trader Logo"> <!-- replace with your logo -->
+    </div>
+    <h2>Login to TopOne Trader</h2>
+    <form>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+      <a href="#" class="forgot">Forgot Password?</a>
+    </form>
+  </div>
+</body>
+</html>
